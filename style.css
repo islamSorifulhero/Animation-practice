@@ -1,0 +1,13 @@
+img{
+    position: relative;
+    animation: mycutie 1s infinite alternate;
+    animation-timing-function: ease-in;
+}
+@keyframes mycutie{
+    from{
+        top: 0px;
+    }
+    to{
+        top: 300px;
+    }
+}
