@@ -1,13 +1,14 @@
 img{
     position: relative;
-    animation: mycutie 1s infinite alternate;
+    animation: mycutie 3s infinite;
     animation-timing-function: ease-in;
+    border-radius: 50%;
 }
 @keyframes mycutie{
     from{
-        top: 0px;
+        transform: rotate(0deg);
     }
     to{
-        top: 300px;
+        transform: rotate(360deg);
     }
 }
